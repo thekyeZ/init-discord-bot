@@ -1,4 +1,4 @@
-# init-discord-bot
+# bootstrap-discord-bot
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 🚀 Create Discord Bot with CLI
@@ -12,7 +12,7 @@ Tired of Googling "How to create Discord Bot"? Use this tool and easily bootstra
 
 ## Use
 ```
-npx init-discord-bot
+npx bootstrap-discord-bot
 ```
 
 Follow the instructions, this is easy!
