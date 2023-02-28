@@ -1,25 +1,27 @@
 {
-  "name": "create-discord-bot",
-  "version": "0.0.5",
+  "name": "init-discord-bot",
+  "version": "0.0.1",
   "description": "Create Discord Bot with CLI",
   "main": "dist/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsc && node ./dist/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HZooly/create-discord-bot.git"
+    "url": "git+https://github.com/thekyeZ/init-discord-bot"
   },
   "keywords": [
     "discord"
   ],
   "author": "torzuoli.hugo@gmail.com",
+  "contributors": ["przemek.urbaniak95@gmail.com"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HZooly/create-discord-bot/issues"
+    "url": "https://github.com/thekyeZ/init-discord-bot/issues"
   },
-  "homepage": "https://github.com/HZooly/create-discord-bot#readme",
+  "homepage": "https://github.com/thekyeZ/create-discord-bot#readme",
   "bin": {
     "create-discord-bot": "./dist/cli.js"
   },
@@ -29,6 +31,7 @@
     "validate-npm-package-name": "^3.0.0"
   },
   "devDependencies": {
+    "@types/log-symbols": "^3.0.0",
     "@types/node": "^11.13.2",
     "tslint": "^5.15.0",
     "typescript": "^3.4.2"
